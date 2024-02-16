@@ -1,0 +1,10 @@
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/entity/Phone.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/controller/UserController.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/model/UserResponseDTO.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/services/UserService.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/repository/UserRepository.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/exception/GlobalExceptionHandler.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/model/PhoneDTO.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/model/UserDTO.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/entity/User.java
+/Users/oscaraguilera/Desktop/task_Global_Logic/src/main/java/com/task/global/DemoApplication.java
