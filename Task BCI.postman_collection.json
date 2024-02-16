@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "397cc321-5dff-420e-ba40-2188097e8ba8",
+		"name": "Task BCI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "320973",
+		"_collection_link": "https://bold-zodiac-326471.postman.co/workspace/Co~ddcdc6f3-a41f-493d-a96c-a2c909d33b44/collection/320973-397cc321-5dff-420e-ba40-2188097e8ba8?action=share&source=collection_link&creator=320973"
+	},
+	"item": [
+		{
+			"name": "New User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"name\":\"Juan Rodriguez\",\n   \"email\":\"juan@rodriguez.org\",\n   \"password\":\"hunter2\",\n   \"phones\":[\n      {\n         \"number\":\"1234567\",\n         \"citycode\":\"1\",\n         \"contrycode\":\"57\"\n      }\n   ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
