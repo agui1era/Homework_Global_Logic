@@ -1,4 +1,3 @@
-// Entidad Phone
 package com.task.global.entity;
 
 import lombok.Data;
