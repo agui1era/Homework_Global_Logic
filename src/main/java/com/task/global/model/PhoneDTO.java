@@ -1,12 +1,10 @@
 package com.task.global.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class PhoneDTO {
     private String number;
     private String citycode;
-    private String contrycode; 
+    private String countrycode;
 }
