@@ -1,8 +1,7 @@
 
 # Proyecto Spring Boot
 
-Este proyecto es una aplicación web desarrollada con Spring Boot, diseñada para demostrar la implementación y prueba de un sistema básico de gestión de usuarios, incluyendo el registro y la generación de JWT (JSON Web Tokens), sin utilizarlos para autenticación.
-
+Este proyecto es una aplicación web desarrollada con Spring Boot, diseñada para demostrar la implementación y prueba de un sistema básico de gestión de usuarios, incluyendo el registro y la generación de JWT (JSON Web Tokens).
 ## Comenzando
 
 Para obtener una copia del proyecto en funcionamiento en un entorno local para desarrollo y pruebas, se deben seguir las siguientes instrucciones.
