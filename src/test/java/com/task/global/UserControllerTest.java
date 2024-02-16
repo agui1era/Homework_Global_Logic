@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.task.global;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.task.global.controller.UserController;
@@ -6,7 +6,6 @@ import com.task.global.entity.User;
 import com.task.global.model.UserResponseDTO;
 import com.task.global.services.UserService;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -40,7 +39,6 @@ public class UserControllerTest {
 
         given(userService.registerUser(any(User.class))).willReturn(responseDTO);
 
-        // Acción y Verificación
         mockMvc.perform(put("/user")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(user)))
