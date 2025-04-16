@@ -1,58 +1,57 @@
+# Spring Boot Project
 
-# Proyecto Spring Boot
+This project is a web application developed with Spring Boot, designed to demonstrate the implementation and testing of a basic user management system, including registration and JWT (JSON Web Token) generation.
+## Getting Started
 
-Este proyecto es una aplicación web desarrollada con Spring Boot, diseñada para demostrar la implementación y prueba de un sistema básico de gestión de usuarios, incluyendo el registro y la generación de JWT (JSON Web Tokens).
-## Comenzando
+To get a working copy of the project in a local environment for development and testing, follow these instructions.
 
-Para obtener una copia del proyecto en funcionamiento en un entorno local para desarrollo y pruebas, se deben seguir las siguientes instrucciones.
+### Prerequisites
 
-### Prerrequisitos
+You must have installed:
 
-Es necesario tener instalado:
-
-- JDK 8 o superior
+- JDK 8 or higher
 - Maven
 
-### Instalación
+### Installation
 
-Para compilar el proyecto y ejecutar las pruebas, se ejecuta:
+To compile the project and run tests, run:
 
 ```bash
 mvn clean install
 ```
 
-Para iniciar la aplicación, se utiliza:
+To start the application, use:
 
 ```bash
 mvn spring-boot:run
 ```
 
-La aplicación estará disponible en `http://localhost:8080`.
+The application will be available at `http://localhost:8080`.
 
-### Ejecutar Pruebas
+### Run Tests
 
-Para ejecutar las pruebas unitarias y de integración, se debe ejecutar:
+To run unit and integration tests, run:
 
 ```bash
 mvn test
 ```
 
-## Documentación API con Swagger UI
+## API Documentation with Swagger UI
 
-La documentación de la API se encuentra disponible a través de Swagger UI, lo que facilita la prueba y visualización de los endpoints disponibles. Se puede acceder a Swagger UI visitando `http://localhost:8080/swagger-ui.html`, proporcionando una interfaz interactiva para explorar la funcionalidad de la API.
+API documentation is available through Swagger UI, making it easy to test and visualize the available endpoints. Swagger UI can be accessed by visiting `http://localhost:8080/swagger-ui.html`, providing an interactive interface for exploring the API's functionality.
 
-## Colección de Postman
+## Postman Collection
 
-Se ha incluido una colección de Postman (`BCI.postman_collection.json`) en la raíz del proyecto. Esta colección contiene ejemplos preconfigurados de solicitudes a la API, permitiendo probar las diversas operaciones disponibles de manera fácil. Para utilizarla, solo se necesita importar el archivo `BCI.postman_collection.json` en Postman.
+A Postman collection (`BCI.postman_collection.json`) has been included in the project root. This collection contains preconfigured examples of API requests, allowing you to easily test the various operations available. To use it, simply import the `BCI.postman_collection.json` file into Postman.
 
-## Uso
+## Usage
 
-Una vez la aplicación está ejecutándose, es posible:
+Once the application is running, you can:
 
-- Registrar un nuevo usuario enviando una petición `PUT` a `/user`.
+- Register a new user by sending a `PUT` request to `/user`.
 
-## Construido con
+## Built with
 
-- [Spring Boot](https://spring.io/projects/spring-boot) - El framework utilizado para las aplicaciones Java basadas en Spring.
-- [Maven](https://maven.apache.org/) - El gestor de dependencias.
-- [JUnit](https://junit.org/junit5/) - El framework utilizado para las pruebas unitarias.
+- [Spring Boot](https://spring.io/projects/spring-boot) - The framework used for Spring-based Java applications.
+- [Maven](https://maven.apache.org/) - The dependency manager.
+- [JUnit](https://junit.org/junit5/) - The framework used for unit testing.
